@@ -1,0 +1,101 @@
+*{
+	padding:0;
+	margin: 0;
+}
+
+@font-face {
+	font-family: "chaletmedium";
+	src: url("../font/Viridian College.woff") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	font-family: "chaletmedium", helvetica, verdana;
+	background:#0B2161;
+	color:#2E64FE;
+	font-size: 1em
+}
+
+h1{
+	color: #2E2EFE;
+	margin: 0,25em auto;
+	text-align: center;
+	text-shadow: 3em;
+}
+
+header{
+	background: #848484;
+	border-radius: 3em;
+	margin: 1em auto;
+	max-width: 3000px;
+	padding: 1em;
+	
+	color:#F7FE2E;
+
+	
+}
+
+ header img{
+	border-radius: 3em;
+
+}
+
+nav{
+	background: #A4A4A4;
+	border-radius: 2em;
+	color:#FFFF00;
+}
+
+ li{
+ 	color: #CEF6F5
+	background: #40FF00;
+	margin: 1em auto;
+	text-align: center;
+	display: inline-block;
+	width: 25%;
+}
+
+section#contenedor{
+	margin: 0;
+	padding: 0;
+	background: #FFFF00;
+	text-align:left;
+	color: #000000;
+}
+section img{
+	border-radius: 3em;
+	max-width: 700px;
+	min-height: 400px;
+
+
+}
+
+section#principal, aside{
+	border-radius: 1em;
+	display: inline-block;
+	margin: 0.5em auto;
+	max-width: 800px;
+	min-height: 200px;
+	vertical-align: top;
+	width: 70%;
+}
+
+aside img{
+	border-radius: 3em;
+	max-width: 500px;
+	min-height: 400px;
+}
+
+article{
+	border-radius: 1em;
+	min-height: 500px;
+	padding: 1em;
+	text-align:right;
+
+}
+aside{
+	width: 30%;
+
+
+}
